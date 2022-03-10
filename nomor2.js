@@ -47,9 +47,8 @@ class Mobil extends Kendaraan {     //  Nama class menggunakan PascalCase
 
 void main() {
     mobilCepat = new Mobil();       //  Nama variabel menggunakan camelCase
-    mobilCepat.berjalan(); 
-    mobilCepat.berjalan(); 
-    mobilCepat.berjalan(); 
+    
+    mobilCepat.tambahKecepatan(30);     //  Langsung menggunakan method tambahKecepatan dengan parameter 30 daripada menggunakan method berjalan 3 kali
 
     mobilLamban = new Mobil();      //  Nama variabel menggunakan camelCase
     mobilLamban.berjalan();
